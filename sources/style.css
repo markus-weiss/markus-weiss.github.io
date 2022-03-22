@@ -1,28 +1,34 @@
-html {
-  font-family: 'Arial', sans-serif;
-  /*line-height: 2em;*/
-  background-color: rgb(255, 250, 250);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
+/* ----------------- General -----------------*/
+html {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  /*line-height: 2em;*/
+  background-color: rgb(254,254,250);
 }
 
 body {
   margin: 0px;
 }
 
+/* ----------------- Head -----------------*/
 .header {
   width: 100%;
-  background-color: rgb(27, 27, 27);
-  color: rgb(255, 250, 250);
+  background-color: rgb(38,38,38);
+  color: rgb(254,254,250);
   height: 8em;
 }
 
 h1 {
   margin: 0%;
   padding: 1em;
-  padding-top: 2.5em;
+  padding-top: 1.3em;
   padding-left: 0.5em;
 
   display: inline-block;
+  font-weight: 300;
+  font-size: 300%;
 
 }
 
@@ -31,8 +37,6 @@ h1 {
   float: right;
   padding: 1em;
   padding-top: 4em;
-  padding-right: 0.5em;
-
 }
 
 .navbar li {
@@ -44,7 +48,7 @@ h1 {
 }
 
 .navbar li a {
-  color: grey;
+  color: rgb(254,254,250);
   text-align: center;
   width: fit-content;
   padding: 1em;
@@ -52,6 +56,9 @@ h1 {
 }
 
 .navbar li a:hover {
-  background-color: white;
-  color: #1d3549;
+  background-color: rgb(254,254,250);
+  color: rgb(38,38,38);
 }
+
+
+/* ----------------- Body -----------------*/

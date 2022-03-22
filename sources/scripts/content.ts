@@ -19,7 +19,7 @@ namespace MyPortfolio {
         picture: "../pictures/droids.png",
         hasLink: false,
         link: ""
-    }
+    };
 
 
 
