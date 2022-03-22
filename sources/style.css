@@ -2,32 +2,42 @@ html {
   font-family: 'Arial', sans-serif;
   /*line-height: 2em;*/
   background-color: rgb(255, 250, 250);
-  margin-top: 1em;
+
+}
+
+body {
+  margin: 0px;
 }
 
 .header {
   width: 100%;
   background-color: rgb(27, 27, 27);
   color: rgb(255, 250, 250);
-  height: 10em;
+  height: 8em;
 }
 
 h1 {
-  width: 40%;
+  margin: 0%;
+  padding: 1em;
+  padding-top: 2.5em;
+  padding-left: 0.5em;
+
   display: inline-block;
 
 }
 
 .navbar {
+  font-size: large;
   float: right;
-}
+  padding: 1em;
+  padding-top: 4em;
+  padding-right: 0.5em;
 
-.navbar ul {
-  overflow: visible;
 }
 
 .navbar li {
   float: left;
+  overflow: visible;
   text-decoration: none;
   list-style-type: none;
   height: 100%;
