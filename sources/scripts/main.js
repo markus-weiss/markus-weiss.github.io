@@ -8,7 +8,8 @@ var MyPortfolio;
     let worksamples = [];
     /*--------------------------------------------------------------- */
     function handleLoad(_event) {
-        console.log("Hello World, Anna here");
+        if (worksamples)
+            console.log("Hello World, Anna here");
     }
     function getContent() {
         worksamples = [MyPortfolio.droids];

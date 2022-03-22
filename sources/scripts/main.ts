@@ -12,7 +12,9 @@ namespace MyPortfolio {
     /*--------------------------------------------------------------- */
     function handleLoad(_event: Event): void {
 
-        console.log("Hello World, Anna here");
+        if (worksamples)
+            console.log("Hello World, Anna here");
+            
     }
 
     function getContent(): void {
