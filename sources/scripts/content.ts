@@ -30,6 +30,23 @@ namespace MyPortfolio {
     };
 
 
+    export let ex1: Worksample = {
+        category: "Prog",
+        title: "example1",
+        description: "Bla",
+        time: "Sometime",
+        picture: "sources/pictures/droids.png",
+        link: ""
+    };
+
+    export let ex2: Worksample = {
+        category: "Prog",
+        title: "example2",
+        description: "Blablhasfjsuiahf",
+        time: "Sometime",
+        picture: "sources/pictures/droids.png",
+        link: ""
+    };
 
 
 

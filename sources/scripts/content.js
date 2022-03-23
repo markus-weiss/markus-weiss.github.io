@@ -17,5 +17,21 @@ var MyPortfolio;
         picture: "sources/pictures/droids.png",
         link: ""
     };
+    MyPortfolio.ex1 = {
+        category: "Prog",
+        title: "example1",
+        description: "Bla",
+        time: "Sometime",
+        picture: "sources/pictures/droids.png",
+        link: ""
+    };
+    MyPortfolio.ex2 = {
+        category: "Prog",
+        title: "example2",
+        description: "Blablhasfjsuiahf",
+        time: "Sometime",
+        picture: "sources/pictures/droids.png",
+        link: ""
+    };
 })(MyPortfolio || (MyPortfolio = {}));
 //# sourceMappingURL=content.js.map
