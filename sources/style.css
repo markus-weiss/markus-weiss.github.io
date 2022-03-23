@@ -13,6 +13,10 @@ body {
   margin: 0px;
 }
 
+a {
+	cursor: pointer;
+}
+
 /* ----------------- Head -----------------*/
 .header {
   width: 100%;

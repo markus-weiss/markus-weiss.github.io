@@ -13,12 +13,28 @@ namespace MyPortfolio {
     function handleLoad(_event: Event): void {
 
         if (worksamples)
-            console.log("Hello World, Anna here!");
+            console.log("Hello World, Anna here with my selfmade Website!");
         generateHTMLData();
+        installListeners();
+    }
+
+    function handleNavClick(_event: MouseEvent): void {
+        console.log("Clicked List Element in Head");
+        let clicked: HTMLLIElement = <HTMLLIElement>_event.currentTarget;
+        console.log(clicked.id);
     }
 
     function getContentWorksamples(): void {
         worksamples = [droids, droidsOhneLink];
+    }
+
+    function installListeners(): void {
+        let navElements: HTMLCollectionOf<HTMLLIElement> = document.getElementsByTagName("header")[0].getElementsByTagName("li");
+
+        for (let navElement of navElements) {
+            console.log("found navElement");
+            navElement.addEventListener("click", handleNavClick);
+        }
     }
 
     function generateHTMLData(): void {
@@ -42,7 +58,7 @@ namespace MyPortfolio {
             content += "</div></div></div>";
         }
 
-        node.innerHTML = content;
+        node.innerHTML += content;
 
     }
 
