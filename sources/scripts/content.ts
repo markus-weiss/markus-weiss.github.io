@@ -7,7 +7,6 @@ namespace MyPortfolio {
         description: string; //Beschreibung box
         time: string;
         picture: string; //Bildlink
-        hasLink: boolean; //Ob hover für einen Link drauf muss
         link: string; //link auf dem Bildhover
     }
 
@@ -16,8 +15,17 @@ namespace MyPortfolio {
         title: "Droids",
         description: "One of the first 3D-Models I did in my second Semester",
         time: "WS 2018",
-        picture: "../pictures/droids.png",
-        hasLink: false,
+        picture: "sources/pictures/droids.png",
+        link: "https://www.youtube.com/watch?v=BadjKZukxEY"
+    };
+
+
+    export let droidsOhneLink: Worksample = {
+        category: "3D",
+        title: "Droids",
+        description: "One of the first 3D-Models I did in my second Semester",
+        time: "WS 2018",
+        picture: "sources/pictures/droids.png",
         link: ""
     };
 
