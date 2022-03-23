@@ -8,7 +8,7 @@ var MyPortfolio;
     /*--------------------------------------------------------------- */
     function handleLoad(_event) {
         console.log("Hello World, Anna here with my selfmade Website!");
-        worksamples = [MyPortfolio.droids, MyPortfolio.droidsOhneLink, MyPortfolio.ex1, MyPortfolio.ex2];
+        worksamples = [MyPortfolio.spaceAdventure, MyPortfolio.droids, MyPortfolio.spaceInvaders, MyPortfolio.seaworld];
         installListeners();
         showStartPage();
     }
@@ -31,8 +31,8 @@ var MyPortfolio;
     function showStartPage() {
         let node = document.getElementById("content");
         let content = "";
-        content += "<h2>Hi, Anna here. This is my Portfolio, it's currently under construction. Content comming soon.</h2>";
-        content += "<p><i> To do: Fill Content, design About-Me, make responsive for smartphone, footer css and content </i></p>";
+        content += "<h2>Hi, Anna here. This is my Portfolio, it's currently under construction. Content comming soon.</h2><img title='me' src='sources/pictures/me.png'>";
+        content += "<p><i> To do: Fill Content, design About-Me, difference youtube-Link <-> game-Link, make responsive for smartphone, footer css and content </i></p>";
         node.innerHTML = content;
     }
     function generateHTMLData(categoryFilter) {

@@ -7,31 +7,31 @@ var MyPortfolio;
         description: "One of the first 3D-Models I did in my second Semester",
         time: "WS 2018",
         picture: "sources/pictures/droids.png",
+        link: ""
+    };
+    MyPortfolio.spaceAdventure = {
+        category: "3D",
+        title: "Space Adventure",
+        description: "Short 3D Movie. My Tasks: Some Planets, Camera",
+        time: "WS 2018",
+        picture: "sources/pictures/spaceAdventure.png",
         link: "https://www.youtube.com/watch?v=BadjKZukxEY"
     };
-    MyPortfolio.droidsOhneLink = {
-        category: "3D",
-        title: "Droids",
-        description: "One of the first 3D-Models I did in my second Semester",
+    MyPortfolio.spaceInvaders = {
+        category: "Prog",
+        title: "Space Invaders",
+        description: "Made with html, css, and typescript in my second Semester.",
         time: "WS 2018",
-        picture: "sources/pictures/droids.png",
-        link: ""
+        picture: "sources/pictures/spaceInvaders.png",
+        link: "https://annalotz.github.io/EIA2/SpaceInvaders2/spaceInvaders.html"
     };
-    MyPortfolio.ex1 = {
+    MyPortfolio.seaworld = {
         category: "Prog",
-        title: "example1",
-        description: "Bla",
-        time: "Sometime",
-        picture: "sources/pictures/droids.png",
-        link: ""
-    };
-    MyPortfolio.ex2 = {
-        category: "Prog",
-        title: "example2",
-        description: "Blablhasfjsuiahf",
-        time: "Sometime",
-        picture: "sources/pictures/droids.png",
-        link: ""
+        title: "Seaworld Canvas",
+        description: "Canvas animation with html and typescript",
+        time: "WS 2018",
+        picture: "sources/pictures/seaworld.png",
+        link: "https://annalotz.github.io/EIA2/Aufgabe_11/Seaworld/Canvas.html"
     };
 })(MyPortfolio || (MyPortfolio = {}));
 //# sourceMappingURL=content.js.map

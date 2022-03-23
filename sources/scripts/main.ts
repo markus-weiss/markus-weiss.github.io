@@ -10,7 +10,7 @@ namespace MyPortfolio {
     /*--------------------------------------------------------------- */
     function handleLoad(_event: Event): void {
         console.log("Hello World, Anna here with my selfmade Website!");
-        worksamples = [droids, droidsOhneLink, ex1, ex2];
+        worksamples = [spaceAdventure, droids, spaceInvaders, seaworld];
         installListeners();
         showStartPage();
     }
@@ -40,9 +40,9 @@ namespace MyPortfolio {
         let node: HTMLDivElement = <HTMLDivElement>document.getElementById("content");
         let content: string = "";
 
-        content += "<h2>Hi, Anna here. This is my Portfolio, it's currently under construction. Content comming soon.</h2>";
+        content += "<h2>Hi, Anna here. This is my Portfolio, it's currently under construction. Content comming soon.</h2><img title='me' src='sources/pictures/me.png'>";
 
-        content += "<p><i> To do: Fill Content, design About-Me, make responsive for smartphone, footer css and content </i></p>";
+        content += "<p><i> To do: Fill Content, design About-Me, difference youtube-Link <-> game-Link, make responsive for smartphone, footer css and content </i></p>";
 
         node.innerHTML = content;
     }
