@@ -10,7 +10,7 @@ var MyPortfolio;
         console.log("Hello World, Anna here with my selfmade Website!");
         worksamples =
             [MyPortfolio.walkcycleRoxie, MyPortfolio.spaceAdventure, MyPortfolio.spaceShips, MyPortfolio.droids,
-                MyPortfolio.progText, MyPortfolio.spaceInvaders, MyPortfolio.websitePortfolio, MyPortfolio.seaworld,
+                MyPortfolio.progText, MyPortfolio.spaceInvaders, MyPortfolio.escapeTheEdge, MyPortfolio.websitePortfolio, MyPortfolio.seaworld,
                 MyPortfolio.musikgigant, MyPortfolio.cypcyd];
         installListeners();
         showStartPage();

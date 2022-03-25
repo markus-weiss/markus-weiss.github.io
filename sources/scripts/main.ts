@@ -12,7 +12,7 @@ namespace MyPortfolio {
         console.log("Hello World, Anna here with my selfmade Website!");
         worksamples =
             [walkcycleRoxie, spaceAdventure, spaceShips, droids,
-                progText, spaceInvaders, websitePortfolio, seaworld,
+                progText, spaceInvaders, escapeTheEdge, websitePortfolio, seaworld,
                 musikgigant, cypcyd];
         installListeners();
         showStartPage();

@@ -51,6 +51,14 @@ var MyPortfolio;
         picture: "sources/pictures/spaceInvaders.png",
         link: "https://annalotz.github.io/EIA2/SpaceInvaders2/spaceInvaders.html"
     };
+    MyPortfolio.escapeTheEdge = {
+        category: "Prog",
+        title: "Escape The Edge",
+        description: "Small game made with FUDGE (Furtwangen University Didactic Game Editor).",
+        time: "WS 2019",
+        picture: "sources/pictures/escapeTheEdge.png",
+        link: "https://annalotz.github.io/PRIMA/EscapeTheEdge/Main.html"
+    };
     MyPortfolio.websitePortfolio = {
         category: "Prog",
         title: "This Website",
