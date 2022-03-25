@@ -30,6 +30,15 @@ namespace MyPortfolio {
         link: "https://www.youtube.com/watch?v=BadjKZukxEY"
     };
 
+    export let houdiniVellum: Worksample = {
+        category: "3D",
+        title: "Cloth-Animation with Houdini Vellum",
+        description: "Trying out cloth-animation and analysing its steps in Houdini with Houdini Vellum for a university-Project.",
+        time: "WS 2019",
+        picture: "sources/pictures/HoudiniVellum.png",
+        link: "https://youtu.be/bfQAIsTYnAU"
+    };
+
     export let spaceShips: Worksample = {
         category: "3D",
         title: "Tie-Fighter and A-Wing",

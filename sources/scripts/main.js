@@ -9,7 +9,7 @@ var MyPortfolio;
     function handleLoad(_event) {
         console.log("Hello World, Anna here with my selfmade Website!");
         worksamples =
-            [MyPortfolio.walkcycleRoxie, MyPortfolio.spaceAdventure, MyPortfolio.spaceShips, MyPortfolio.droids,
+            [MyPortfolio.walkcycleRoxie, MyPortfolio.spaceAdventure, MyPortfolio.houdiniVellum, MyPortfolio.spaceShips, MyPortfolio.droids,
                 MyPortfolio.progText, MyPortfolio.spaceInvaders, MyPortfolio.escapeTheEdge, MyPortfolio.websitePortfolio, MyPortfolio.seaworld,
                 MyPortfolio.musikgigant, MyPortfolio.cypcyd];
         installListeners();

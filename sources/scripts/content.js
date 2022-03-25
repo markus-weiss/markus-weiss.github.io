@@ -18,6 +18,14 @@ var MyPortfolio;
         picture: "sources/pictures/spaceAdventure.png",
         link: "https://www.youtube.com/watch?v=BadjKZukxEY"
     };
+    MyPortfolio.houdiniVellum = {
+        category: "3D",
+        title: "Cloth-Animation with Houdini Vellum",
+        description: "Trying out cloth-animation and analysing its steps in Houdini with Houdini Vellum for a university-Project.",
+        time: "WS 2019",
+        picture: "sources/pictures/HoudiniVellum.png",
+        link: "https://youtu.be/bfQAIsTYnAU"
+    };
     MyPortfolio.spaceShips = {
         category: "3D",
         title: "Tie-Fighter and A-Wing",
