@@ -10,7 +10,10 @@ namespace MyPortfolio {
     /*--------------------------------------------------------------- */
     function handleLoad(_event: Event): void {
         console.log("Hello World, Anna here with my selfmade Website!");
-        worksamples = [spaceAdventure, droids, spaceInvaders, seaworld];
+        worksamples =
+            [walkcycleRoxie, spaceAdventure, spaceShips, droids,
+                progText, spaceInvaders, websitePortfolio, seaworld,
+                musikgigant, cypcyd];
         installListeners();
         showStartPage();
     }
@@ -59,9 +62,10 @@ namespace MyPortfolio {
 
                 if (worksample.link) {
                     content += "<a href=' " + worksample.link + "' target='_blank'>";
-                    content += "<img class='img' title = '" + worksample.title + "' src =' " + worksample.picture + "'>";
-                    content += "<div class='overlay'><div class='text'> Click to watch on Youtube </div></div></a>";
-                } else {
+                    if (worksample.picture)
+                        content += "<img class='img' title = '" + worksample.title + "' src =' " + worksample.picture + "'>";
+                    content += "<div class='overlay'><div class='text'> Click to view </div></div></a>";
+                } else if (worksample.picture) {
                     content += "<img class='img' title = 'title' src =' " + worksample.picture + "'>";
                 }
                 content += "<div class='TextBox'>";

@@ -17,6 +17,10 @@ a {
 	cursor: pointer;
 }
 
+main {
+  margin: 1em;
+}
+
 /* ----------------- Head -----------------*/
 .header {
   width: 100%;
@@ -65,13 +69,6 @@ h1 {
   color: rgb(38, 38, 38);
 }
 
-
-/* ----------------- Main -----------------*/
-
-main {
-  margin: 1em;
-}
-
 /* ----------------- Mediaboxen -----------------*/
 
 .MediaBox {
@@ -79,13 +76,13 @@ main {
   display: block;
 
   height: auto;
-  width: 50%;
+  width: 40%;
   padding: 0em;
 
-  margin: 0em;
+  margin: 1em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
   border: 0em;
 
   text-align: left;
@@ -103,7 +100,7 @@ main {
 }
 
 .TextBox {
-  padding-top: 0em;
+  padding-top: 0.5em;
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;

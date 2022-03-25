@@ -8,7 +8,10 @@ var MyPortfolio;
     /*--------------------------------------------------------------- */
     function handleLoad(_event) {
         console.log("Hello World, Anna here with my selfmade Website!");
-        worksamples = [MyPortfolio.spaceAdventure, MyPortfolio.droids, MyPortfolio.spaceInvaders, MyPortfolio.seaworld];
+        worksamples =
+            [MyPortfolio.walkcycleRoxie, MyPortfolio.spaceAdventure, MyPortfolio.spaceShips, MyPortfolio.droids,
+                MyPortfolio.progText, MyPortfolio.spaceInvaders, MyPortfolio.websitePortfolio, MyPortfolio.seaworld,
+                MyPortfolio.musikgigant, MyPortfolio.cypcyd];
         installListeners();
         showStartPage();
     }
@@ -44,10 +47,11 @@ var MyPortfolio;
                 content += "<div class='container'>";
                 if (worksample.link) {
                     content += "<a href=' " + worksample.link + "' target='_blank'>";
-                    content += "<img class='img' title = '" + worksample.title + "' src =' " + worksample.picture + "'>";
-                    content += "<div class='overlay'><div class='text'> Click to watch on Youtube </div></div></a>";
+                    if (worksample.picture)
+                        content += "<img class='img' title = '" + worksample.title + "' src =' " + worksample.picture + "'>";
+                    content += "<div class='overlay'><div class='text'> Click to view </div></div></a>";
                 }
-                else {
+                else if (worksample.picture) {
                     content += "<img class='img' title = 'title' src =' " + worksample.picture + "'>";
                 }
                 content += "<div class='TextBox'>";
