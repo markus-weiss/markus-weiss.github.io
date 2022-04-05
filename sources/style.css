@@ -14,7 +14,7 @@ body {
 }
 
 a {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 main {
@@ -68,6 +68,8 @@ h1 {
   background-color: rgb(254, 254, 250);
   color: rgb(38, 38, 38);
 }
+
+
 
 /* ----------------- Mediaboxen -----------------*/
 
@@ -143,38 +145,55 @@ h1 {
 
 /* ----------------- Footer -----------------*/
 
-.wrapper {
-	top: 0em;
-	left: 0em;
-	padding: 1em;
-	margin: 0em;
-	width: 100%;
-	height: auto;
-	z-index: 20;
-	background-color: #4682B4;
-}
-	
-footer {
-	width: 100%;
-	display: flex;
-	margin: auto;
-	height: auto;
-	padding: 0em;
-	z-index: 40;
+.logos {
+  height: 64px;
+  padding: 5px;
 }
 
-.footerspalte li {
-	color: white;
+footer {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  height: auto;
+  padding: 0em;
+}
+
+.wrapper {
+  top: 0em;
+  left: 0em;
+  padding: 1em;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0em;
+  width: 100%;
+  height: auto;
+  background-color: rgb(38, 38, 38);
+}
+
+.footerspalte {
+  width: 40%;
+}
+.footerspalte_rightaligned {
+  padding-right: 0em;
+  padding-left: 10%;
+}
+
+footer h2 {
+  color: rgb(254, 254, 250)
 }
 
 footer div {
-	float: left;
-	width: 100%;
-	margin: 0em;
-	margin-left: 0em;
+  float: left;
+  width: 45%;
+  margin: 0em;
+  margin-left: 0em;
+}
+
+.footerspalte li {
+  color: white;
 }
 
 footer ul {
-	list-style-type: none;
-	margin-left: -2.4em;
+  list-style-type: none;
+  margin-left: -2.4em;
 }
