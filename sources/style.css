@@ -140,7 +140,17 @@ h1 {
 
 /*Ende Hover*/
 
+#myPhoto {
+  width: 15%;
+  margin-left: 40%;
+  display: block;
+}
 
+#placeholderText {
+  width: 30%;
+  margin-left: 35%;
+  display: inline-block;
+}
 
 
 /* ----------------- Footer -----------------*/
@@ -173,6 +183,7 @@ footer {
 .footerspalte {
   width: 40%;
 }
+
 .footerspalte_rightaligned {
   padding-right: 0em;
   padding-left: 10%;
