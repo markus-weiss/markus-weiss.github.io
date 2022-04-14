@@ -18,7 +18,7 @@ namespace MyPortfolio {
         description: "Body-Rig from scratch. Made with 3dsMax. Triple-IK Leg Setup, IK-FK-Blend in Arms, Twistbones in Underarm. Simple Skinning. Keyframe-Animation.",
         time: "WS 2021",
         picture: "sources/pictures/Roxie_Rig45.png",
-        link: ""
+        link: "https://youtu.be/8lebfj3IhTU"
     };
 
     export let spaceAdventure: Worksample = {
