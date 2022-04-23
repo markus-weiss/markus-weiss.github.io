@@ -47,7 +47,7 @@ namespace MyPortfolio {
 
         content += "<h2 id='placeholderText'>Hi I'm Markus. This is my Portfolio, it's currently under construction. More content comming soon.</h2><img title='me' id='myPhoto' src='sources/pictures/me.png'>";
 
-        content += "<p><i> To do: Fill Content, design About-Me, difference youtube-Link <-> game-Link, make responsive for smartphone, footer css and content, Haftungsauschluss, Impressum</i></p>";
+        // content += "<p><i> To do: Fill Content, design About-Me, difference youtube-Link <-> game-Link, make responsive for smartphone, footer css and content, Haftungsauschluss, Impressum</i></p>";
 
         node.innerHTML = content;
     }
