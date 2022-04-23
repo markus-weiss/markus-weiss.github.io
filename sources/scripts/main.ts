@@ -9,7 +9,7 @@ namespace MyPortfolio {
 
     /*--------------------------------------------------------------- */
     function handleLoad(_event: Event): void {
-        console.log("Hello World, Anna here with my selfmade Website!");
+        console.log("Hello World!");
         worksamples =
             [walkcycleRoxie, spaceAdventure, houdiniVellum, spaceShips, droids,
                 progText, spaceInvaders, escapeTheEdge, websitePortfolio, seaworld,
