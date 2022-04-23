@@ -39,11 +39,13 @@ namespace MyPortfolio {
         }
     }
 
+
+    // sadf Main Page text
     function showStartPage(): void {
         let node: HTMLDivElement = <HTMLDivElement>document.getElementById("content");
         let content: string = "";
 
-        content += "<h2 id='placeholderText'>Hi, Anna here. This is my Portfolio, it's currently under construction. More content comming soon.</h2><img title='me' id='myPhoto' src='sources/pictures/me.png'>";
+        content += "<h2 id='placeholderText'>Hi I'm Markus. This is my Portfolio, it's currently under construction. More content comming soon.</h2><img title='me' id='myPhoto' src='sources/pictures/me.png'>";
 
         content += "<p><i> To do: Fill Content, design About-Me, difference youtube-Link <-> game-Link, make responsive for smartphone, footer css and content, Haftungsauschluss, Impressum</i></p>";
 
