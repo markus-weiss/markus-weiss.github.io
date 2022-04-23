@@ -35,7 +35,7 @@ var MyPortfolio;
         let node = document.getElementById("content");
         let content = "";
         content += "<h2 id='placeholderText'>Hi, Markus here. This is my Portfolio, it's currently under construction. More content comming soon.</h2><img title='me' id='myPhoto' src='sources/pictures/me.jfif'>";
-        content += "<p><i> To do: Fill Content, design About-Me, difference youtube-Link <-> game-Link, make responsive for smartphone, footer css and content, Haftungsauschluss, Impressum</i></p>";
+        // content += "<p><i> To do: Fill Content, design About-Me, difference youtube-Link <-> game-Link, make responsive for smartphone, footer css and content, Haftungsauschluss, Impressum</i></p>";
         node.innerHTML = content;
     }
     function generateHTMLData(categoryFilter) {
